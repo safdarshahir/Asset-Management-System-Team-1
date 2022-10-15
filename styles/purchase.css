@@ -1,0 +1,56 @@
+body{
+    background-color: #004445;
+    color: aliceblue;
+}
+header{
+    background-color: #021c1e;
+    width: 500px;
+    height: 70px;
+    margin-left: 350px;
+    text-align: center;
+    border-radius: 5px;
+    line-height: 65px;
+    font-family: 'Poppins', sans-serif;
+    font-size: larger;   
+    /* text-decoration: underline; */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.purchase_form{
+    background-color: #021c1e;
+    width: 55vw;
+    height: 65vh;
+    /* text-align: center; */
+    margin-top: 50px;
+    margin-left: 260px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 30px;
+    /* padding-left: 50px; */
+    font-family: 'Poppins', sans-serif;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#assetType{
+    margin-left: 40%;
+}
+
+#quantity{
+    margin-left: 42.5%;
+}
+
+#vendor_name{
+    margin-left: 36.5%;
+}
+
+#orderDate{
+    margin-left: 39.5%;
+}
+
+#deliveryDate{
+    margin-left: 37%;
+}
+
+#status{
+    margin-left: 44.5%;
+}
