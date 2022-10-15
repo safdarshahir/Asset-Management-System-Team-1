@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF8">
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/userStyle.css">
+    <title>User Login</title>
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="firstHalf">
+
+            <div class="login-head">
+                <h1>Asset Management System</h1>
+            </div>
+            <div class="signinBox">
+                <div class="welcome">
+                    <h2>Welcome back !</h2>
+                    <h4>Welcome back. Enter your details.</h4>
+                </div>
+    
+                <div>
+                    <form action="put">
+    
+                        <div class="form-item">
+                            <label for="username">
+                                Username
+                            </label>
+                            <input class="inputbox" type="text" placeholder="Your username here" required>
+                        </div>
+    
+                        <div class="form-item">
+                            <label for="password">
+                                Password
+                            </label>
+                            <input class="inputbox" type="password" placeholder="Your password here" required>
+                        </div>
+    
+                        <div class="form-item">
+                            <Label>User Type :</Label>
+                            <div> <input type="radio" name="usertype" id="">Admin</input></div>
+                           <div> <input type="radio" name="usertype" id="">Purchase Manager</input></div>
+                           
+                        </div>
+    
+                        <div class="form-item">
+                            <div> <input type="checkbox" name="saveme">
+                                <Label>Remember Me</Label>
+                                <a class ="forgot" href="">Forgot Password?</a>
+                            </div>
+                           
+    
+                            
+                        </div>
+    
+                        <div class="form-item">
+                            <input class= "signin-button" type="submit" name="submit" value="Sign in">
+                        </div>
+    
+                        <div class="signup"> Dont have an account? <a href="">Sign Up.</a> </div>
+    
+    
+                        
+                    </form>
+                </div>
+    
+            </div>
+
+          
+        </div>
+    
+    </div>
+   
+</body>
+
+</html>
