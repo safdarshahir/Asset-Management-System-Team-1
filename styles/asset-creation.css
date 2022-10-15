@@ -1,0 +1,118 @@
+*
+{
+    font-family: 'Poppins',Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 4px;
+    padding: 7px;
+}
+
+body
+{
+    margin: 0 auto;
+    color: whitesmoke;
+    background-color: #021C1E;
+}
+
+.container
+{
+    background-color: #004445;
+    max-width: 900px;
+    margin: 0 auto;
+    padding:30px;
+    height: fit-content;
+    padding-bottom: 90px;
+}
+
+.container h1
+{
+    padding: 9px;
+    margin: 3px 9%;
+
+}
+
+.container table
+{
+    width: 80%;
+    background-color: whitesmoke;
+    padding: 4px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.regForm
+{
+    /* background-color: whitesmoke; */
+    font-size: 16px;
+    font-weight: bold;
+    width: fit-content;
+    min-width: 600px;
+    /* width: 100%; */
+    padding: 0px;
+    height: fit-content;
+}
+
+.regForm table tr
+{
+    /* background-color: orange; */
+}
+
+.regForm table tr td
+{
+    padding:9px 4%;
+    min-width: 250px;
+    background-color: #004445;
+    background-color: #021C1E;
+    box-shadow: 1px 3px 3px rgba(245, 245, 245, 0.126);
+    /* border: 1px solid rgba(245, 245, 245, 0.29); */
+    width: 15%;
+    height: 40px;
+    /* margin: 8px; */
+    text-align: left;
+}
+
+.regForm tr td input
+{
+    /* background-color: #021C1E; */
+    padding: 13px 3%;
+    color: #021C1E;
+    margin: 6px;
+    width: 300px;
+    border: none;
+}
+
+.regForm tr td select
+{
+    /* background-color: #021C1E; */
+    padding: 13px 3%;
+    color: #021C1E;
+    margin: 6px;
+    width: 320px;
+    border: none;
+}
+
+#submit
+{
+    background-color: #004445;
+}
+
+#submit
+{
+    margin-right: 11%;
+    padding:11px;
+    font-size: 16px;
+    width: 119px;
+    background-color: #0f2224;
+    color: whitesmoke;
+    font-weight: bold;
+    border: none;
+    float: right;
+    margin-top: 15px;
+}
+
+#radios
+{
+    display:inline-block;
+    margin: 9px;
+    width: fit-content;
+    background-color: red;
+
+}
