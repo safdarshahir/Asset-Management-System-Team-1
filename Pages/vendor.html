@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/vendorStyle.css">
+    <title>Vendor Creation</title>
+</head>
+<body>
+    <div class="container">
+    <h1 align = "center">Vendor Creation Form</h1>
+    <!--Form with table-->
+    <form name="regform" method="post" action="">
+
+        <table cellpadding="8" align="center" >
+            <!--text-->
+            <tr class="form-item">
+                <td class="head">ID</td>
+                <td><input type="number" name="id" required  maxlength="20" /></td>
+            </tr>
+            <tr class="form-item">
+                <td class="head">Vendor Name:</td>
+                <td>
+                    <select  name="vname" >
+                        <option value="samsung">Samsung</option>
+                        <option value="mi">MI</option>
+                        <option value="vivo">VIVO</option>
+                        <option value="softland">Softland India</option>
+                        <option value="mobio">Mobio</option>
+                        <option value="icofss">ICOFSS</option>
+                        <option value="wifi soln">WiFi Solutions</option>
+                        <option value="talent">Talent Services</option>
+                    </select>
+                </td>
+            </tr>
+            <!--radio button-->
+            <tr class="form-item">
+                <td class="head">Type:</td>
+                <td><input type="radio" name="vendortype" value="Supplier">Supplier
+                </td>
+            </tr>
+            <tr class="form-item">
+                <td class="head">Vendor Name:</td>
+                <td>
+                    <select name="vtype" >
+                        <option value="mobile">Mobile</option>
+                        <option value="printer">Thermal Printer</option>
+                        <option value="sensor">Sensor</option>
+                        <option value="gateway">Gateway</option>
+                        <option value="laptop">Laptop</option>
+                        <option value="barner">Boom Barner</option>
+                    </select>
+                </td>
+            </tr>
+            <!--date-->
+            <tr class="form-item">
+                <td class="head">Valid from:</td>
+                <td><input type="date" required name="validfrom"></td>
+            </tr>
+            <tr class="form-item">
+                <td class="head">Valid to:</td>
+                <td><input type="date" required name="validto"></td>
+            </tr>
+            <!--textarea-->
+            <tr class="form-item">
+                <td class="head">Address:</td>
+                <td><textarea name="" rows="5" required cols="40"></textarea></td>
+            </tr>
+            <tr class="form-item">
+                <td></td>
+                <td><input type="submit" value="Submit">
+                    <input type="reset" value="Clear">
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>
