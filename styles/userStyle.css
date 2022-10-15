@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    color: whitesmoke;
+    font-family: 'Poppins';
+    font-weight: 100;
+}
+
+html,body{
+
+    height: 100%;
+    margin: 0;
+    background-color: #004445;
+
+}
+
+.main{
+
+    display: flex;
+    border-radius: 20px;
+    font-size:  large;
+}
+
+.firstHalf{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: middle;
+    width: 100%;
+}
+
+
+.welcome{
+
+    margin-top: 10%;
+}
+
+
+.form-item{
+    margin: 12px;
+}
+.form-item>input{
+
+    display: block;
+    color: #021c1e;
+}
+
+.forgot{
+
+    font-size: small;
+    margin-left: 10%;
+}
+
+.signin-button,.inputbox{
+
+    /* height: 100%; */
+    width: 100%;
+    font-weight: 500;
+    border-radius: 2px;
+    border: none;
+    transition: 0.4s;
+}
+
+.signin-button:hover{
+
+    color: whitesmoke;
+    background-color: #256364;
+}
+
+.signinBox{
+
+    font-size: 1em;
+    border: whitesmoke solid 1px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+
