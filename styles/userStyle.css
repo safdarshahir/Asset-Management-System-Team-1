@@ -9,8 +9,7 @@ html,body{
 
     height: 100%;
     margin: 0;
-    background-color: #004445;
-
+    background-color:#004445;
 }
 
 .main{
@@ -18,6 +17,11 @@ html,body{
     display: flex;
     border-radius: 20px;
     font-size:  large;
+    background-color:  #021c1e;
+    margin: 5%;
+    padding: 20px;
+
+
 }
 
 .firstHalf{
@@ -27,17 +31,18 @@ html,body{
     align-items: center;
     vertical-align: middle;
     width: 100%;
+    padding: 20px;
 }
 
 
 .welcome{
 
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 
 .form-item{
-    margin: 12px;
+    margin: 14px;
 }
 .form-item>input{
 
@@ -45,11 +50,7 @@ html,body{
     color: #021c1e;
 }
 
-.forgot{
 
-    font-size: small;
-    margin-left: 10%;
-}
 
 .signin-button,.inputbox{
 
@@ -73,6 +74,8 @@ html,body{
     border: whitesmoke solid 1px;
     border-radius: 20px;
     padding: 20px;
+    width: 60%;
+    margin-bottom: 20px;
 }
 
 
