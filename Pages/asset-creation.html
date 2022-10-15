@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Asset Creation Page
+        </title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+
+        <!-- External Stylesheet -->
+        <link rel="stylesheet" href="../styles/asset-creation.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+
+    </head>
+    <body>
+        <div class="container">
+            <h1>
+                Asset Creation
+            </h1>
+            <form action="get" class="regForm">
+                <table>
+
+                    <!-- am_id -->
+                    <!-- Hidden Field -->
+                    <input type="hidden" name="am_id" placeholder="Asset Management ID" required>
+
+                    <!-- am_atype_id -->
+                    <tr>
+                        <label for="asset-select">
+                            <td>
+                                Asset Type
+                            </td>
+                        </label>
+                        <td>
+                            <select id="asset-select" name="asset-select" required>
+                                <option selected disabled>
+                                    Select Assest Type
+                                </option>
+                                <option name="am_atype_id" value="1">
+                                    Mobile
+                                </option>
+                                <option name="am_atype_id" value="2">
+                                    Thermal Printer
+                                </option>
+                                <option name="am_atype_id" value="3">
+                                    Sensor
+                                </option>
+                                <option name="am_atype_id" value="4">
+                                    Gateway
+                                </option>
+                                <option name="am_atype_id" value="5">
+                                    Laptop
+                                </option>
+                                <option name="am_atype_id" value="6">
+                                    Boom Barrier
+                                </option>
+
+                            </select>
+                            
+                        </td>
+                    </tr>
+
+                    <!-- am_make_id -->
+                    <tr>
+                        <label for="vendor-select">
+                            <td>
+                                Vendor Name
+                            </td>
+                        </label>
+                        <td>
+                            <select id="vendor-select" name="vendor-select" required>
+                                <option selected disabled>
+                                    Select the Vendor
+                                </option>
+                                <option name="am_make_id" value="1">
+                                    Samsung
+                                </option>
+                                <option name="am_make_id" value="2">
+                                    MI
+                                </option>
+                                <option name="am_make_id" value="3">
+                                    Vivo
+                                </option>
+                                <option name="am_make_id" value="4">
+                                    Softland India
+                                </option>
+                                <option name="am_make_id" value="5">
+                                    Mobilo
+                                </option>
+                                <option name="am_make_id" value="6">
+                                    ICOFSS
+                                </option>
+                                <option name="am_make_id" value="7">
+                                    Wifi Solutions
+                                </option>
+                                <option name="am_make_id" value="8">
+                                    Talent Services
+                                </option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <!-- am_ad_id -->
+                    <tr>
+                        <label for="asset-name-select">
+                            <td>
+                                Asset Name
+                            </td>
+                        </label>
+                        <td>
+                            <select id="asset-name-select" name="asset-name-select" required>
+                                <option selected disabled>
+                                    Select the Asset
+                                </option>
+                                <option name="am_ad_id" value="1">
+                                    Geo Magnetic Sensor - Ground
+                                </option>
+                                <option name="am_ad_id" value="2">
+                                    LoRaGetway - Tata
+                                </option>
+                                <option name="am_ad_id" value="3">
+                                    Mobile Phone
+                                </option>
+                                <option name="am_ad_id" value="4">
+                                    Laser Printer - Colour
+                                </option>
+                                <option name="am_ad_id" value="5">
+                                    Laptop
+                                </option>
+                                <option name="am_ad_id" value="6">
+                                    Desktop
+                                </option>
+                                <option name="am_ad_id" value="7">
+                                    Mobile Charger
+                                </option>
+                                <option name="am_ad_id" value="8">
+                                    Printer Charger
+                                </option>
+                                <option name="am_ad_id" value="9">
+                                    Thermal Printer
+                                </option>
+                                <option name="am_ad_id" value="10">
+                                    Lora Getaway - ICFOSS
+                                </option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <!-- am_model -->
+                    <tr>
+                        <label for="am_model">
+                            <td>
+                                Model
+                            </td>
+                        </label>
+                        <td>
+                            <input type="text" id="am_model" name="am_model" placeholder="Model Name" required>
+                        </td>
+                    </tr>
+
+                    <!-- am_snumber -->
+                    <tr>
+                        <label for="am_snumber">
+                            <td>
+                                Serial No.
+                            </td>
+                        </label>
+                        <td>
+                            <input type="number" id="am_snumber" name="am_snumber" min="1" placeholder="Serial Number" required>
+                        </td>
+                    </tr>
+
+                    <!-- am_myyear -->
+                    <tr>
+                        <label for="am_myyear">
+                            <td>
+                                Manufacturing Year
+                            </td>
+                        </label>
+                        <td>
+                            <input type="number" id="am_myyear" name="am_myyear" min="1947" max="2021" placeholder="Manufacturing Year" required>
+                        </td>
+                    </tr>
+
+                    <!-- am_pdate -->
+                    <tr>
+                        <label for="am_pdate">
+                            <td>
+                                Purchase Date
+                            </td>
+                        </label>
+                        <td>
+                            <input type="date" id="am_pdate" name="am_pdate" required>
+                        </td>
+                    </tr>
+
+                    <!-- am_warranty -->
+                    <tr>
+                        <label for="am_warranty">
+                            <td>
+                                Has Warranty
+                            </td>
+                        </label>
+                        <td>
+                            <input id="radios" type="radio" name="am_warranty" value="y" required>Yes
+                            <input id="radios" type="radio" name="am_warranty" value="n" required>No
+                        </td>
+                    </tr>
+
+                    <!-- am_from -->
+                    <tr>
+                        <label for="am_from">
+                            <td>
+                                Asset From
+                            </td>
+                        </label>
+                        <td>
+                            <input type="date" id="am_from" name="am_from" required>
+                        </td>
+                    </tr>
+
+                    <!-- am_to -->
+                    <tr>
+                        <label for="am_to">
+                            <td>
+                                Asset To
+                            </td>
+                        </label>
+
+                        <td>
+                            <input type="date" id="am_to" name="am_to" required>
+                        </td>
+                    </tr>
+                </table>
+                
+                <input id="submit" type="submit" name="submit" value="Register">
+                
+            </form>
+        </div>
+    </body>
+</html>
