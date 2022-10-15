@@ -4,6 +4,9 @@ Color pallete:
   
       #Background -- #021c1e
       #text color - #f5f5f5
+      
+      ![alt text](https://static-cse.canva.com/blob/568909/07.WateryBlueGreens.png)
+
   
   Team and Modules
     1). Ahmer - Asset Creation
