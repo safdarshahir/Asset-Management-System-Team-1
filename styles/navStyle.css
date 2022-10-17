@@ -54,5 +54,10 @@ background-color: #01787a;
 .table-icon,.add-icon{
     margin-bottom: 6%;
     width: 30%;
+    transition-duration: 0.2s;
+}
+
+.table-icon:hover,.add-icon:hover{
+    width: 40%;
 }
 
