@@ -27,7 +27,7 @@
                 </div>
 
                 <div>
-                    <form action="put">
+                    <form method="post" action="./nav-page.html">
                         <input type="text" name="" id="userid" hidden>
                         <div class="form-item">
                             <label for="username">
@@ -45,15 +45,18 @@
 
                         <div class="form-item">
                             <Label>User Type :</Label>
-                            <div> <input type="radio" name="usertype" id="">Admin</input></div>
-                            <div> <input type="radio" name="usertype" id="">Purchase Manager</input></div>
+                            <div> <input type="radio" name="usertype" id="" required>Admin</input></div>
+                            <div> <input type="radio" name="usertype" id="" >Purchase Manager</input></div>
 
                         </div>
 
                         <div class="form-item">
-                            <div> <input type="checkbox" name="saveme">
-                                <Label>Remember Me</Label>
-                                <a class="forgot" href="">Forgot Password?</a>
+                            <div class="forgot"> 
+                                <div class="remember">  <input type="checkbox" name="saveme">
+                                    <Label>Remember Me</Label></div>   
+                                    
+                                    <div class="forgot-link"> <a  href="">Forgot Password?</a></div>
+                                
                             </div>
 
 

@@ -78,4 +78,16 @@ html,body{
     margin-bottom: 20px;
 }
 
+.forgot>div{
+    display: inline;
+}
+
+.remember{
+
+    margin-right: 53%;
+}
+.signup{
+
+    text-align: center;
+}
 
