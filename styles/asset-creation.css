@@ -10,6 +10,7 @@ body
     margin: 0 auto;
     color: whitesmoke;
     background-color: #021C1E;
+    background-color: #004445;
 }
 
 .container
@@ -34,7 +35,7 @@ body
     max-width: 900px;
     width: 90%;
     background-color: whitesmoke;
-    padding: 4px;
+    padding: 1px;
     margin: 0 auto;
     text-align: center;
 }
@@ -50,8 +51,9 @@ body
 /* 
 .regForm table tr
 {
-    /* background-color: orange; */
-} */
+    background-color: orange; 
+} 
+*/
 
 .regForm table tr td
 {
