@@ -27,7 +27,7 @@
                 </div>
     
                 <div>
-                    <form action="put">
+                    <form method="post" action="./nav-page.html">
                         <input type="text" name="" id="userid" hidden>
                         <div class="form-item">
                             <label for="firstName">
@@ -51,7 +51,7 @@
        
                         <div class="form-item">
                             <Label>Gender :</Label>
-                            <div> <input type="radio" name="gender" id="">Male</input></div>
+                            <div> <input type="radio" name="gender" id="" required>Male</input></div>
                            <div> <input type="radio" name="gender" id="">Female</input></div>
                            <div> <input type="radio" name="gender" id="">Other</input></div>
                            
@@ -61,11 +61,11 @@
                             <label for="address">
                                 Address :
                             </label>
-                            <input class="inputbox" type="address" name="address" placeholder="Enter address here" id="" cols="30" rows="10">
+                            <input class="inputbox" type="address" name="address" placeholder="Enter address here" id="" cols="30" rows="10" required>
                         </div>
                         <div class="form-item">
                             <Label>User Type :</Label>
-                            <div> <input type="radio" name="usertype" id="">Admin</input></div>
+                            <div> <input type="radio" name="usertype" id="" required>Admin</input></div>
                            <div> <input type="radio" name="usertype" id="">Purchase Manager</input></div>
                            
                         </div>
@@ -74,7 +74,7 @@
                             <label for="phone">
                                 Phone No.
                             </label>
-                            <input class="inputbox" type="tel" name="phnumber" id="" placeholder="Enter phoner number">
+                            <input class="inputbox" type="tel" name="phnumber" id="" placeholder="Enter phoner number" required>
                         </div>
     
                         <div class="form-item">
