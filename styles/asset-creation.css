@@ -31,7 +31,8 @@ body
 
 .container table
 {
-    width: 80%;
+    max-width: 900px;
+    width: 90%;
     background-color: whitesmoke;
     padding: 4px;
     margin: 0 auto;
@@ -43,29 +44,22 @@ body
     /* background-color: whitesmoke; */
     font-size: 16px;
     font-weight: bold;
-    width: fit-content;
-    min-width: 600px;
-    /* width: 100%; */
     padding: 0px;
     height: fit-content;
 }
-
+/* 
 .regForm table tr
 {
     /* background-color: orange; */
-}
+} */
 
 .regForm table tr td
 {
     padding:9px 4%;
-    min-width: 250px;
-    background-color: #004445;
     background-color: #021C1E;
     box-shadow: 1px 3px 3px rgba(245, 245, 245, 0.126);
     /* border: 1px solid rgba(245, 245, 245, 0.29); */
-    width: 15%;
     height: 40px;
-    /* margin: 8px; */
     text-align: left;
 }
 
@@ -75,7 +69,8 @@ body
     padding: 13px 3%;
     color: #021C1E;
     margin: 6px;
-    width: 300px;
+    /* width: 300px; */
+    width:92%;
     border: none;
 }
 
@@ -85,7 +80,7 @@ body
     padding: 13px 3%;
     color: #021C1E;
     margin: 6px;
-    width: 320px;
+    width:98%;
     border: none;
 }
 
@@ -96,7 +91,7 @@ body
 
 #submit
 {
-    margin-right: 11%;
+    margin-right: 6%;
     padding:11px;
     font-size: 16px;
     width: 119px;
