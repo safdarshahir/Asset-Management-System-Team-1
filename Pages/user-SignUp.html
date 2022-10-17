@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF8">
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/userStyle.css">
+    <title>User Login</title>
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="firstHalf">
+
+            <div class="login-head">
+                <h1>Asset Management System</h1>
+            </div>
+            <div class="signinBox">
+                <div class="welcome">
+                    <h2>Sign Up !</h2>
+                    <h4>Enter your details.</h4>
+                </div>
+    
+                <div>
+                    <form method="post" action="./nav-page.html">
+                        <input type="text" name="" id="userid" hidden>
+                        <div class="form-item">
+                            <label for="firstName">
+                                First Name
+                            </label>
+                            <input class="inputbox" type="text" placeholder="Your First Name here" required>
+                        </div>
+                        <div class="form-item">
+                            <label for="lastName">
+                                Last Name
+                            </label>
+                            <input class="inputbox" type="text" placeholder="Your Last Name here" required>
+                        </div>
+                        <div class="form-item">
+                            <label for="age">
+                                Age
+                            </label>
+                            <input class="inputbox" type="number" min="18" max="60" placeholder="Enter Age here" required>
+                        </div>
+    
+       
+                        <div class="form-item">
+                            <Label>Gender :</Label>
+                            <div> <input type="radio" name="gender" id="" required>Male</input></div>
+                           <div> <input type="radio" name="gender" id="">Female</input></div>
+                           <div> <input type="radio" name="gender" id="">Other</input></div>
+                           
+                        </div>
+
+                        <div class="form-item">
+                            <label for="address">
+                                Address :
+                            </label>
+                            <input class="inputbox" type="address" name="address" placeholder="Enter address here" id="" cols="30" rows="10" required>
+                        </div>
+                        <div class="form-item">
+                            <Label>User Type :</Label>
+                            <div> <input type="radio" name="usertype" id="" required>Admin</input></div>
+                           <div> <input type="radio" name="usertype" id="">Purchase Manager</input></div>
+                           
+                        </div>
+    
+                        <div class="form-item">
+                            <label for="phone">
+                                Phone No.
+                            </label>
+                            <input class="inputbox" type="tel" name="phnumber" id="" placeholder="Enter phoner number" required>
+                        </div>
+    
+                        <div class="form-item">
+                            <input class= "signin-button" type="submit" name="submit" value="Sign Up">
+                        </div>
+    
+    
+    
+                        
+                    </form>
+                </div>
+    
+            </div>
+
+          
+        </div>
+    
+    </div>
+
+    <hr>
+    <center>   Copyright &COPY; Team 1</center>
+   
+</body>
+
+</html>
