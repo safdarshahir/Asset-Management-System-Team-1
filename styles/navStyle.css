@@ -31,6 +31,7 @@ html,body{
 
 }
 
+
 .nav-grid>div{
 
     display: flex;
@@ -40,8 +41,16 @@ html,body{
     margin: 10px;
     align-items: center;
     padding: 20px;
+
+    transition-duration: 0.4s;
+
 }
 
+
+.nav-grid>div:hover{
+
+background-color: #01787a;
+}
 .table-icon,.add-icon{
     margin-bottom: 6%;
     width: 30%;
