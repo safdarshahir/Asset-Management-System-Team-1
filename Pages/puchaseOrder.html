@@ -13,23 +13,23 @@
 </head>
 
 <body>
-    <header>
+    <!-- <header>
         <b>Purchase Order Form</b>
-    </header>
-    <div class="purchase_form">
+    </header> -->
+    <!-- <div class="purchase_form">
         <form method="post">
             <label for="orderId">Order ID : </label>
             <input type="hidden" id="orderId" name="orderId" required>
-            <hr>
-            <!-- <br> -->
-            <!-- <br> -->
-            
+            <hr> -->
+    <!-- <br> -->
+    <!-- <br> -->
+    <!--             
             <label for="orderNo">Purchase order number : </label>
             <input type="hidden" id="orderNo" name="orderNo" required>
-            <hr>
-            <!-- <br><br> -->
-            
-            <label for="assetType">Asset Type</label>
+            <hr> -->
+    <!-- <br><br> -->
+
+    <!-- <label for="assetType">Asset Type</label>
             <select name="assetType" id="assetType">
                 <option value="1">Mobile</option>
                 <option value="2">Thermal Printer</option>
@@ -38,15 +38,15 @@
                 <option value="5">Laptop</option>
                 <option value="6">Boom Barrier</option>
             </select>
-            <hr>
-            <!-- <br><br> -->
-            
-            <label for="quantity">Quantity</label>
-            <input type="number" name="quantity" id="quantity" minlength="1">
-            <hr>
-            <!-- <br><br> -->
+            <hr> -->
+    <!-- <br><br> -->
 
-            <label for="vendor_name">Vendor Name</label>
+    <!-- <label for="quantity">Quantity</label>
+            <input type="number" name="quantity" id="quantity" minlength="1">
+            <hr> -->
+    <!-- <br><br> -->
+
+    <!-- <label for="vendor_name">Vendor Name</label>
             <select name="vendor_name" id="vendor_name">
                 <option value="1">Samsung</option>
                 <option value="2">MI</option>
@@ -57,20 +57,20 @@
                 <option value="7">Wifi Solutions</option>
                 <option value="8">Talent services</option>
             </select>
-            <hr>
-            <!-- <br><br> -->
-            
-            <label for="orderDate">Order date</label>
+            <hr> -->
+    <!-- <br><br> -->
+
+    <!-- <label for="orderDate">Order date</label>
             <input type="date" name="order_name" id="orderDate">
-            <hr>
-            <!-- <br><br> -->
+            <hr> -->
+    <!-- <br><br> -->
 
-            <label for="deliveryDate">Delivery date</label>
+    <!-- <label for="deliveryDate">Delivery date</label>
             <input type="date" name="delivery_date" id="deliveryDate">
-            <hr>
-            <!-- <br><br> -->
+            <hr> -->
+    <!-- <br><br> -->
 
-            <label for="status">Status</label>
+    <!-- <!-- <label for="status">Status</label>
             <select name="status" id="status">
                 <option value="1">PO Raised with supplier</option>
                 <option value="2">Awaiting by supplier</option>
@@ -83,8 +83,94 @@
 
             <hr>
             <br>
-        </form>
+        </form> 
 
-    </div>
+    </div>-->
+
+    <h2 align="center">Purchase Orders</h2>
+    <table align="center">
+        <tr class="col-head">
+            <td>Order Id</td>
+            <td>Order No.</td>
+            <td>Asset Type</td>
+            <td>Quantity</td>
+            <td>Vendor Name</td>
+            <td>Order Date</td>
+            <td>Status</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>AMZ902</td>
+            <td>Thermal Printer</td>
+            <td>2</td>
+            <td>ICOFSS</td>
+            <td>2022/04/14</td>
+            <td>Asset allocated with resources</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>AMZ776</td>
+            <td>Mobile</td>
+            <td>1</td>
+            <td>Vivo</td>
+            <td>2020/04/23</td>
+            <td>PO Raised with supplier</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>AMZ269</td>
+            <td>Mobile</td>
+            <td>1</td>
+            <td>Samsung</td>
+            <td>2021/09/22</td>
+            <td>Asset details registered internally</td>
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td>AMZ443</td>
+            <td>Sensor</td>
+            <td>3</td>
+            <td>Wifi solutions</td>
+            <td>2021/03/12</td>
+            <td>Awaiting delivery by supplier</td>
+        </tr>
+        <tr>
+            <td>5.</td>
+            <td>FLK082</td>
+            <td>Laptop</td>
+            <td>1</td>
+            <td>Talent service</td>
+            <td>2022/02/14</td>
+            <td>Identified faulty</td>
+        </tr>
+        <tr>
+            <td>6.</td>
+            <td>FLK433</td>
+            <td>Gateway</td>
+            <td>1</td>
+            <td>MI</td>
+            <td>2022/01/20</td>
+            <td>Consignment Received</td>
+        </tr>
+        <tr>
+            <td>7.</td>
+            <td>AMZ792</td>
+            <td>Boom Barrier</td>
+            <td>2</td>
+            <td>ICOFSS</td>
+            <td>2021/12/16</td>
+            <td>Replaced - Repaired</td>
+        </tr>
+        <tr>
+            <td>8.</td>
+            <td>FLK276</td>
+            <td>Thermal Printer</td>
+            <td>2</td>
+            <td>Wifi solutions</td>
+            <td>2022/05/28</td>
+            <td>Asset detail registered internally</td>
+        </tr>
+    </table>
 </body>
+
 </html>
