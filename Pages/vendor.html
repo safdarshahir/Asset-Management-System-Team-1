@@ -8,24 +8,26 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../styles/vendorStyle.css">
+    
     <title>Vendor Creation</title>
 </head>
 <body>
     <div class="container">
     <h1 align = "center">Vendor Creation Form</h1>
     <!--Form with table-->
-    <form name="regform" method="post" action="">
+    <form name="regform" method="post" action="get" class="regform">
 
         <table cellpadding="8" align="center" >
             <!--text-->
             <tr class="form-item">
                 <td class="head">ID</td>
-                <td><input type="number" name="id" required  maxlength="20" /></td>
+                <td><input type="number" class="field" name="id"  id="id" required  maxlength="20" /></td>
             </tr>
             <tr class="form-item">
                 <td class="head">Vendor Name:</td>
                 <td>
-                    <select  name="vname" >
+                    <select  name="vname" id="name">
+                        <option value="" disabled selected>Select name</option>
                         <option value="samsung">Samsung</option>
                         <option value="mi">MI</option>
                         <option value="vivo">VIVO</option>
@@ -40,13 +42,14 @@
             <!--radio button-->
             <tr class="form-item">
                 <td class="head">Type:</td>
-                <td><input type="radio" name="vendortype" value="Supplier">Supplier
+                <td><input type="radio" name="vendortype" id="type" value="Supplier" class="form-control">Supplier
                 </td>
             </tr>
             <tr class="form-item">
-                <td class="head">Vendor Name:</td>
+                <td class="head">Asset Type:</td>
                 <td>
-                    <select name="vtype" >
+                    <select name="vtype" id="atype">
+                        <option value="" disabled selected>Select type</option>
                         <option value="mobile">Mobile</option>
                         <option value="printer">Thermal Printer</option>
                         <option value="sensor">Sensor</option>
@@ -59,25 +62,29 @@
             <!--date-->
             <tr class="form-item">
                 <td class="head">Valid from:</td>
-                <td><input type="date" required name="validfrom"></td>
+                <td><input type="date" class="field" id="validfrom" required name="validfrom" ></td>
             </tr>
             <tr class="form-item">
                 <td class="head">Valid to:</td>
-                <td><input type="date" required name="validto"></td>
+                <td><input type="date" class="field" id="validto" required name="validto" ></td>
             </tr>
             <!--textarea-->
             <tr class="form-item">
                 <td class="head">Address:</td>
-                <td><textarea name="" rows="5" required cols="40"></textarea></td>
+                <td><textarea name="" id="addr" rows="5" required cols="40" ></textarea></td>
             </tr>
             <tr class="form-item">
                 <td></td>
-                <td><input type="submit" value="Submit">
-                    <input type="reset" value="Clear">
+                <td><button id="submit" onclick="addVendor()" >SUBMIT</button>
+                    <button id="clear" onclick="clearVendor()" >CLEAR</button>
                 </td>
             </tr>
         </table>
     </form>
 </div>
+
+<!--JavaScript-->
+<script type="text/javascript" src="../js/vendorjs.js"></script>
+
 </body>
 </html>
