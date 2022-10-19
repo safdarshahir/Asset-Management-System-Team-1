@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="../scripts/user-validation.js"></script>
     <link rel="stylesheet" href="../styles/userStyle.css">
     <title>User Login</title>
 </head>
@@ -24,29 +25,32 @@
                 <div class="welcome">
                     <h2>Welcome back !</h2>
                     <h4>Welcome back. Enter your details.</h4>
+
                 </div>
 
                 <div>
-                    <form method="post" action="./nav-page.html">
-                        <input type="text" name="" id="userid" hidden>
+                    <form id="userLoginForm" name="userForm" method=get action="./nav-page.html">
+                    <h3 id="errorMessage"></h3>
+
+                        <input type="text" id="userid" hidden>
                         <div class="form-item">
                             <label for="username">
                                 Username
                             </label>
-                            <input class="inputbox" type="text" placeholder="Your username here" required>
+                            <input class="inputbox" id="userName" name="userName" type="text" placeholder="Your username here">
                         </div>
 
                         <div class="form-item">
                             <label for="password">
                                 Password
                             </label>
-                            <input class="inputbox" type="password" placeholder="Your password here" required>
+                            <input id="password" class="inputbox" type="password" placeholder="Your password here">
                         </div>
 
                         <div class="form-item">
                             <Label>User Type :</Label>
-                            <div> <input type="radio" name="usertype" id="" required>Admin</input></div>
-                            <div> <input type="radio" name="usertype" id="" >Purchase Manager</input></div>
+                            <div> <input type="radio" name="usertype" id="userType" required>Admin</input></div>
+                            <div> <input type="radio" name="usertype" id="userType" >Purchase Manager</input></div>
 
                         </div>
 
@@ -64,7 +68,7 @@
                         </div>
 
                         <div class="form-item">
-                            <input class="signin-button" type="submit" name="submit" value="Sign in">
+                            <input id="signInBtn" class="signin-button" type="submit" name="submit" value="Sign in">
                         </div>
 
                         <div class="signup"> Dont have an account? <a href="../Pages/user-SignUp.html">Sign Up.</a>
