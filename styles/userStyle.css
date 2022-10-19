@@ -91,3 +91,7 @@ html,body{
     text-align: center;
 }
 
+#errorMessage{
+
+    color: red;
+}
