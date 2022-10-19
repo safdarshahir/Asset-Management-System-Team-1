@@ -75,4 +75,6 @@ function isNotChecked(userType,errorMessage){
         console.log(element);
         
     });
+
+    return false;
 }
